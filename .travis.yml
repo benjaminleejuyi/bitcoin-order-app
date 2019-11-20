@@ -24,6 +24,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
+  edge: true
   local_dir: dist/bitcoin
   on:
     branch: development
